@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ /* BODY */
+ /* colore di sfondo e font utilizzato nella pagina */
+ body{
+    background-color: rgba(246,248,249,1);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* HEADER */
+/* colore di sfondo e dimensioni header */
+ header{
+    background-color: white;
+    height: 10vh;
+    padding: 20px 0px;
+ }
+/* dimensioni e possizionamento del titolo principale */
+ .titolo_principale{
+    font-size: 60px;
+    font-weight: 700;
+    vertical-align: middle;
+ }
+/* dimensioni e posizionamento del logo */
+ #logo{
+    margin-left: 2vw;
+    vertical-align: middle;
+    height: 100%;
+ }
