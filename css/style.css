@@ -16,6 +16,7 @@
     background-color: white;
     height: 10vh;
     padding: 20px 0px;
+    margin-bottom: 10vh;
  }
 /* dimensioni e possizionamento del titolo principale */
  .titolo_principale{
@@ -29,3 +30,98 @@
     vertical-align: middle;
     height: 100%;
  }
+ 
+/* MAIN  */
+/* dimensioni e colori container */
+.container{
+    width: 60vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+/* dimensione e colore zona bottoni */
+.bottoni{
+    padding: 20px 70px;
+    border-bottom: 3px solid rgba(246,248,249,1);
+}
+/* dimensioni bottoni */
+.btn{
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+/* colore bottone */
+.btn_azzurro{
+    color: white;
+    background-color: rgba(71,173,241,1);
+    border: 0px;
+}
+/* colore bottone */
+.btn_bianco{
+    background-color: white;
+    border: 1px solid grey;
+}
+/* stile lista */
+ul{
+    list-style-type: none;
+}
+/* dimesione list item */
+li{
+    padding: 15px 0px;
+}
+/* dimesione font titolo tendina */
+.titolo_tendina{
+    font-size: 22px;
+}
+/* dimesioni lista */
+.lista{
+    padding: 20px 70px;
+}
+/* stile bordo simbolo check e cross */
+.cerchio{
+    margin-right: 10px;
+    padding: 0px 3px;
+    border-radius: 50%;
+}
+/* colore e stile simbolo check */
+.fatto{
+    color: green;
+    border: 1px solid green;
+    
+}
+/* colore e stile simbolo cross */
+.fare{
+    color: red;
+    border: 1px solid red;
+}
+/* dimesioni e stile tag */
+.tag{
+    padding: 10px;
+    margin-left: 7px;
+    color: white;
+    font-size: 12px;
+    border-radius: 30px;
+}
+/* colore specifico tag */
+.editorial_tag{
+    background-color: rgba(71,173,241,1);
+}
+/* colore specifico tag */
+.q1_goals_tag{
+    background-color: rgba(156,114,228,1);
+}
+/* colore specifico tag */
+.recruiting_tag{
+    background-color: rgba(100,192,169,1);
+}
+/* colore specifico tag */
+.mobile_tag{
+    background-color: rgba(242,158,51,1);
+}
+/* colore specifico tag */
+.website_tag{
+    background-color: rgba(216,99,161,1);
+}
+/* colore specifico tag */
+.sales_tag{
+    background-color: rgba(176,201,38,1);
+}
